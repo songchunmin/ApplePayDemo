@@ -1,3 +1,6 @@
+    Apply pay代码实现之前先配置证书和Merchant ID ；具体操作：http://blog.csdn.net/songchunmin_/article/details/51543356
+    APPly pay 实现代码和注意事项：http://blog.csdn.net/songchunmin_/article/details/51549207
+
     /*  判定用户是否能够支付，在创建支付请求之前，要首先通过调用PKPaymentAuthorizationViewController 类里的
         canMakePaymentsUsingNetworks:方法来判断用户是否能够使用你提供的支付网络进行支付。
         如果要判断用户的硬件是否支持Apple Pay或者是否因为家长控制而不能支付，请使用canMakePayments 方法。
